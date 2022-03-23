@@ -1,199 +1,298 @@
-<!DOCTYPE html>    
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<title>CraftMart | Ecommerce Website Design</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
-</head>
-<body>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>CraftMart | Ecommerce Website Design</title>
+    <!-- connect html file with css file  -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balthazar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <!-- codes written in body will be displayed on webpage -->
     <div class="header">
         <div class="container">
-        <div class="navbar">
+            <!-- <nav class="navbar"> -->
             <div class="logo">
-                <img src="imagescraftmart/logofinal.png" width="125px">
+                <h1>CRAFTMART</h1>
+                <div class="search">
+                    <input type="text" class="search-box" placeholder="search brand, product">
+                    <button class="search-btn">search</button>
+                </div>
             </div>
-            <nav>
-                <ul id="Menuitems">
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">PRODUCTS</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">CONTACT</a></li>
-                    <li><a href="">ACCOUNT</a></li>
-                </ul>
+            <nav class="navbar">
+                <table width="100%" border="1" bordercolor="black">
+                    <tr>
+                        <ul class="links-container">
+                            <td>
+                                <li class="link-item"><a href="#" class="link">HOME</a></li>
+                            </td>
+                            <td>
+                                <li class="link-item"><a href="#" class="link">EXPLORE</a></li>
+                            </td>
+                            <td>
+                                <li class="link-item"><a href="#" class="link">FAVOURITES</a></li>
+                            </td>
+                            <td>
+                                <li class="link-item"><a href="#" class="link">CART</a></li>
+                            </td>
+                            <td>
+                                <li class="link-item"><a href="#" class="link">ACCOUNT</a></li>
+                            </td>
+                        </ul>
+                    </tr>
+                </table>
             </nav>
-            <img src="imagescraftmart/shopping-cart.png" width="30px" height="30px">
-            <img src="https://img.icons8.com/ios-filled/24/000000/menu--v2.png" class="menu" 
-            onclick="menutoggle()">
+            <!-- <script src="js/nav.js"></script> -->
+            <!-- <nav>
+                    <ul id="Menuitems">
+                        anchor tag added to make items clickable 
+                <li><a href="">HOME</a></li>
+                <li><a href="">PRODUCTS</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">ACCOUNT</a></li>
+                </ul>
+                </nav>
+                <img src="public/images/shopping-cart.png" width="30px" height="30px">
+                <img src="https://img.icons8.com/ios-filled/24/000000/menu--v2.png" class="menu" onclick="menutoggle()"> -->
         </div>
         <div class="row">
             <div class="col-2">
-                <h1>EMBRACE THE SPIRIT OF INDIA</h1>
-                <h3>An unparalleled legacy that spans millennia. Pure, authentic craft sourced from artisans across the Indian sub-continent. Our vast collection of over 80 different craft forms celebrates a heritage of some of the world’s oldest handicrafts.
+                <h1> EMBRACE THE SPIRIT OF INDIA</h1>
+                <h3>Indian handicrafts online are the most loved and appreciated all around the globe. Handicraft items at CRAFTMART consist of a variety of options that you can select from that can be a great home decor item, gifting option. You can further
+                    buy handicraft items online that are the best you can have your hands on. These handicraft items are made using different antique methods that make them stand out.
                 </h3>
-                <a href=""class="btn">EXPLORE NOW &#x279C</a>
-
+                <!-- for arrow we have used &#x279C  -->
+                <a href="" class="btn">SHOP NOW &#x279C</a>
 
             </div>
             <div class="col-2">
-                <img src="imagescraftmart/frontimage.png">
+                <img src="images/8.jfif" width="400px" height="400px">
             </div>
         </div>
     </div>
-	</div>
 
     <!-------FEATURED CATEGORIES------>
     <div class="categories">
         <div class="small-container">
-        <div class="row">
-            <div class="col-3">
-                <img src="imagescraftmart/pashmina1.png">
-            </div>
-            <div class="col-3">
-                <img src="imagescraftmart/plates1.png" >
-            </div>   
-            <div class="col-3">
-                <img src="imagescraftmart/khavda.png">
-            </div>
-            <div class="col-3">
-                <img src="imagescraftmart/mask" ></div>
+            <div class="row">
                 <div class="col-3">
-                <img src="imagescraftmart/candle" >
-                
-            </div>
-        </div>
-     </div>
-    </div>
-  <!-------FEATURED PRODUCTS------>
-    <div class="smallcontainer">
-        <h2 class="title">FEATURED PRODUCTS</h2>
-        <div class="row">
-        <div class="col-4">
-            <div style="text-align: left;"><img src="imagescraftmart/planetpot"></div>
-          <h4>Indian Handicraft Metal Planter Pot</h4>
-          <p>₹500</p>
-        </div>
-        <div class="col-4">
-          <img src="imagescraftmart/bamboobasket">
-          <h4>Bolga Bamboo Basket</h4>
-          <p>₹2,850</p>
-        </div>
-        <div class="col-4">
-          <img src="imagescraftmart/showpiece">
-          <h4>European Classical Peacock Dancer Decor</h4>
-          <p>₹6,500</p>
-        </div>
-
-        <div class="col-4">
-          <img src="imagescraftmart/mughalprincess">
-          <h4>Mughal Princess Wall Plate</h4>
-          <p>₹1,700</p>
-        </div>
-    </div>
- </div>
- <div class="smallcontainer">
-    <h2 class="title">LATEST PRODUCTS</h2>
-    <div class="row">
-    <div class="col-4">
-        <div style="text-align: left;"><img src="imagescraftmart/pichwai"></div>
-      <h4></h4>
-      <p>₹500</p>
-    </div>
-    <div class="col-4">
-      <img src="imagescraftmart/pot.png">
-      <h4></h4>
-      <p>₹2,850</p>
-    </div>
-    <div class="col-4">
-      <img src="imagescraftmart/plates">
-      <h4></h4>
-      <p>₹6,500</p>
-    </div>
-
-    <div class="col-4">
-      <img src="imagescraftmart/decor">
-      <h4></h4>
-      <p>Rs 2,000</p>
-    </div>
-    <div class="col-4">
-        <div style="text-align: left;"><img src="imagescraftmart/kundanpeacock"></div>
-      <h4></h4>
-      <p>₹500</p>
-    </div>
-    <div class="col-4">
-      <img src="imagescraftmart/humanhands">
-      <h4></h4>
-      <p>₹2,850</p>
-    </div>
-    <div class="col-4">
-      <img src="imagescraftmart/fan.png">
-      <h4></h4>
-      <p>₹6,500</p>
-    </div>
-
-    <div class="col-4">
-      <img src="imagescraftmart/white">
-      <h4></h4>
-      <p>Rs 2,000</p>
-    </div>
-</div>
-</div>
-<!-----Footer----->
-<div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="footer-col-1">
-               <h1>CRAFTMART</h1>
-            </div>
-                <div class="footer-col-2">
-                   <h3>ORDERS & SUPPORT</h3>
-                   <ul>
-                       <li>Contact Us</li>
-                       <li>Bulk Orders</li>
-                       <li> How to Order</li>
-                       <li>FAQ's</li>
-                   </ul>
-                    
+                    <img src="images/7.jfif" height=" 200px ">
                 </div>
-                
-
-            <div class="footer-col-3">
-                <h3>FOLLOW US 
-                </h3>
-                <ul>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>Instagram</li>
-                    <li>Whatsapp</li>
-
-                </ul>
-                
+                <div class="col-3 ">
+                    <img src="images/4.jfif ">
+                </div>
+                <div class="col-3 ">
+                    <img src="images/fc5.jpg " height="200px ">
+                </div>
+                <div class="col-3 ">
+                    <img src="images/fc11.jpg " height="200px">
+                </div>
             </div>
         </div>
-        <hr>
-        <p class="copyright" >Copyright 2022</p>
-   </div>
+    </div>
+    <!-------FEATURED PRODUCTS------>
+    <div class="smallcontainer ">
+        <h2 class="title ">FEATURED PRODUCTS</h2>
+        <div class="row ">
+            <div class="col-4 ">
+                <div style="text-align: left; "><img src="images/planetpot.webp " width="220px" height="220px"></div>
+                <h4>Indian Handicraft Metal Planter Pot</h4>
+                <p>₹500</p>
+            </div>
+            <div class="col-4 ">
+                <img src="images/bamboobasket.jpeg " height="220px">
+                <h4>Bolga Bamboo Basket</h4>
+                <p>₹2,850</p>
+            </div>
+            <div class="col-4 ">
+                <img src="images/decor.jpeg ">
+                <h4>European Classical Peacock Dancer Decor</h4>
+                <p>₹6,500</p>
+            </div>
+
+            <div class="col-4 ">
+                <img src="images/mughalprincess.webp ">
+                <h4>Mughal Princess Wall Plate</h4>
+                <p>₹1,700</p>
+            </div>
+        </div>
+    </div>
+    <div class="smallcontainer ">
+        <h2 class="title ">LATEST PRODUCTS</h2>
+        <div class="row ">
+            <div class="col-4 ">
+                <div style="text-align: left; "><img src="images/pichwai.webp "></div>
+                <h4>Pichwai Handpainted Wall Plate</h4>
+                <p>₹2,900</p>
+            </div>
+            <div class="col-4 ">
+                <img src="images/pot.png ">
+                <h4>Chic Artsy Handcrafted Planter White Geometric</h4>
+                <p>₹899</p>
+            </div>
+            <div class="col-4 ">
+                <img src="images/plates.jpeg ">
+                <h4>Blue Pottery 4" Plate ( Set of 3)</h4>
+                <p>₹999</p>
+            </div>
+
+            <div class="col-4 ">
+                <img src="images/decor.jpeg ">
+                <h4>Metal Elephant Trunk Up Home Decor Showpiece</h4>
+                <p>₹1,900</p>
+            </div>
+            <div class="col-4 ">
+                <div style="text-align: left; "><img src="images/kundanpeacock.jpeg "></div>
+                <h4>Handicrafts Paradise Peacock Motif Kundan Studded Marble Flower Pot</h4>
+                <p>₹1,765</p>
+            </div>
+            <div class="col-4 ">
+                <img src="images/fc3.jpg ">
+                <h4>Terracotta Handmade Handpainted Red Floral Cutwork Design Table Lantern</h4>
+                <p>₹1,000</p>
+            </div>
+            <div class="col-4 ">
+                <img src="images/fan.png ">
+                <h4>Hand Painted Fan </h4>
+                <p>₹950</p>
+            </div>
+
+            <div class="col-4 ">
+                <img src="images/fc8.jpg ">
+                <h4>Wooden Side Table With Elephant Face Shape Legs</h4>
+                <p>Rs 2,000</p>
+            </div>
+        </div>
+    </div>
+    <div class="smallcontainer ">
+        <h2 class="title ">WORK IN STYLE</h2>
+        <div class="row ">
+            <div class="col-5 ">
+                <div style="text-align: left; "><img src="images/warliart"></div>
+                <h4>Warli Art Decorative Trays (Set of 3) - Black</h4>
+                <p>₹2,910</p>
+            </div>
+            <div class="col-5 ">
+                <img src="images/hand ">
+                <h4>Bidri Craft Paper Clip - Hand</h4>
+                <p>₹ 1,400</p>
+            </div>
+            <div class="col-5 ">
+                <img src="images/diary">
+                <h4>Cotton Block Print Clipboard (Small), Diary and Memo Box</h4>
+                <p>₹ 1,220</p>
+            </div>
+
+            <div class="col-4 ">
+                <img src="images/leatherdiary">
+                <h4>Handmade Pure Leather Brown Diary with Handmade Paper</h4>
+                <p>₹ 1,220</p>
+            </div>
+            
+    </div>
+    <div class="craft">
+        <h1 class="craft">THE WORLD'S OLDEST CRAFT FORM</h1> </div>
+         <div class="col-6">
+        <div style ="text-align:left;"><img src="images/dhokracraft"></div>
+        <h4>Dhokra Craft - Exquisite Lantern with Intricate Filigree Work</h4>
+        <p class="col-9">₹4,290</p>
+        <p class="col-7">
+            Dhokra is amongst the oldest traditional techniques of metal casting in India,
+             practiced for over 4,000 years, said to date back to the era of the Indus Valley Civilisation. 
+             The lost wax technique or ‘cire-perdue’ has been the medium of metal workers in Madhya Pradesh, 
+             Chhattisgarh, Orissa and West Bengal. Entirely handcrafted, the unique 13-stage process of Dhokra 
+             /Bell-metal making today, is an outcome of the original craft instinct handed down through the 
+             centuries. Dhokra or Bell metal is an alloy of brass, and other metals that impart an antique 
+             effect to the castings.</p>
+   
 </div>
-<!----js for toggle menu-->
-<script>
-    var Menuitems=document.getElementById("Menuitems");
-    Menuitems.style.maxHeight="0px";
+<div class="smallcontainer ">
+    <h2 class="title ">WHERE THE HEART RESIDES</h2>
+    <div class="row ">
+        <div class="col-8 ">
+            <div style="text-align: left; "><img src="images/buddhapaintin"></div>
+            <h4>Thangka Painting With Mount, Framed - Buddha </h4>
+            <p>₹5,000</p>
+        </div>
+        <div class="col-8 ">
+            <img src="images/brassscultpture">
+            <h4>Brass Sculpture - Tree of Life</h4>
+            <p>₹3,660</p>
+        </div>
+        <div class="col-8 ">
+            <img src="images/tealightholder">
+            <h4>Bastar Tribal Art - Tealight Holder</h4>
+            <p>₹990</p>
+        </div>
 
-    function menutoggle(){
-        if(Menuitems.style.maxHeight=="0px")
-        {
-            Menuitems.style.maxHeight="200px";
+        <div class="col-8 ">
+            <img src="images/velvetcusioncover">
+            <h4>Exquisite Resham Zardozi Hand Embroidered Velvet Cushion Cover</h4>
+            <p>₹1,890</p>
+        </div>
 
+    <!-----Footer----->
+    <div class="footer ">
+        <div class="container ">
+            <div class="row ">
+                <div class="footer-col-1 ">
+                    <h1>CRAFTMART</h1>
+                </div>
+                <div class="footer-col-2 ">
+                    <h3><strong>ORDERS & SUPPORT</strong></h3>
+                    <ul>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Bulk Orders</a></li>
+                        <li><a href="">How To Order</a></li>
+                        <li><a href="">FAQ's</a></li>
+                    </ul>
+
+                </div>
+
+
+                <div class="footer-col-3 ">
+                    <h3><strong>FOLLOW US</strong></h3>
+                    <ul>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright ">Copyright 2022</p>
+        </div>
+    </div>
+    <!----js for toggle menu-->
+    <!-- <script>
+        var Menuitems = document.getElementById("Menuitems ");
+        Menuitems.style.maxHeight = "0px ";
+
+        function menutoggle() {
+            if (Menuitems.style.maxHeight == "0px ") {
+                Menuitems.style.maxHeight = "200px ";
+
+            } else {
+                Menuitems.style.maxHeight = "0px ";
+            }
         }
-        else{
-            Menuitems.style.maxHeight="0px";
-        }
-    }
-</script>
- </body>
+    </script> -->
+</body>
+
 </html>
